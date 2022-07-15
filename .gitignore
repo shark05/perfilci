@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+/coverage/
+/vendor/
+/logs/*
+
+/_DOCS/
+/_admin/
+
+!/logs/README.md
+.phpunit.result.cache
+

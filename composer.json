@@ -1,0 +1,24 @@
+{
+    "name": "demis/perfilci",
+    "description": "Perfil Consultoria Imobiliária",
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "slim/twig-view": "^3.3",
+        "php-di/php-di": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Demis Mois",
+            "email": "demis_mois@terra.com.br"
+        }
+    ],
+    "scripts": {
+        "start": "php -S 127.0.0.1:8000 -t public "
+    }
+}
